@@ -3,7 +3,7 @@ export default function WorkExperience() {
     <section>
       <h2 className="text-subtitle">Work Experience</h2>
       <div>
-        <h3 className="text-subsubtitle">
+        <h3 className="text-caption">
           Krista RPA <span className="text-sublime">2020 &mdash; today</span>
           <p className="text-body">Member of the core frontend team</p>
           <p className="text-body">Key technologies:</p>
@@ -17,7 +17,7 @@ export default function WorkExperience() {
         </h3>
       </div>
       <div>
-        <h3 className="text-subsubtitle">
+        <h3 className="text-caption">
           Tensor LLC <span className="text-sublime">2016 &mdash; 2020</span>
           <p className="text-body">
             Member of the core frontend framework team

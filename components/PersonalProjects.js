@@ -3,7 +3,7 @@ export default function PersonalProjects() {
     <section>
       <h2 className="text-subtitle">Personal Projects</h2>
       <div>
-        <p className="text-subsubtitle">
+        <p className="text-caption">
           <a
             href="https://apps.apple.com/us/app/binbox-disposable-email/id1507375086"
             target="_blank"
@@ -15,11 +15,12 @@ export default function PersonalProjects() {
           <span className="text-sublime">for iOS & macOS</span>
         </p>
         <p className="text-body">
-          Binbox is an app that lets you make anonymous on-demand email inboxes
-          with one tap of a button. The user can then use these inboxes for
-          example to sign up for websites that they are not comfortable sharing
-          their main email address with. The inboxes are iCloud synced, making
-          them accessible on all of your iOS devices.
+          Binbox is an app that lets users make anonymous on-demand email
+          inboxes with one tap of a button. The user can then use these inboxes
+          as they wish, for example sign up for websites that they are not
+          comfortable sharing their main email address with. The inboxes are
+          iCloud synced, making them accessible on all of their iOS and macOS
+          devices.
         </p>
         <p className="text-body">Key technologies:</p>
         <ul className="text-body">
@@ -31,7 +32,7 @@ export default function PersonalProjects() {
         </ul>
       </div>
       <div>
-        <p className="text-subsubtitle">
+        <p className="text-caption">
           <a
             href="https://apps.apple.com/us/app/stops-yaroslavls-transport/id1483241565"
             target="_blank"
@@ -43,12 +44,13 @@ export default function PersonalProjects() {
           <span className="text-sublime">for iOS</span>
         </p>
         <p className="text-body">
-          Stops app shows you the schedule of Yaroslavl’s public transport at
-          the stop that is closest to you. It’s automatic — no need to manually
-          dig through a long list of stops. Add a transport route to your
-          favorites to see its schedule at a glance, as well as to sync it to
-          the Apple Watch companion app, or view the live transport location map
-          with predicted arrival times.
+          Stops app displays the schedule of Yaroslavl’s public transport at the
+          stop that is closest to the user. It’s fully automated, removing the
+          need to manually dig through a long list of stops. Transport routes
+          can be added to favorites to make their schedule visible at a glance,
+          as well as to sync them to the Apple Watch companion app. The users
+          also get access to the live transport location map with predicted
+          arrival times.
         </p>
         <p className="text-body">Key technologies:</p>
         <ul className="text-body">
