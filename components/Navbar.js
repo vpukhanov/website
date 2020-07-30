@@ -19,6 +19,7 @@ export default function Navbar() {
       <div className={styles.rightSide}>
         <a
           href="https://blog.pukhanov.ru"
+          title="Blog"
           target="_blank"
           rel="noopener"
           className={[styles.navIcon, styles.navLink].join(" ")}
@@ -28,6 +29,7 @@ export default function Navbar() {
         </a>
         <a
           href="https://github.com/vpukhanov"
+          title="Github"
           target="_blank"
           rel="noopener"
           className={[styles.navIcon, styles.navLink].join(" ")}
@@ -37,6 +39,7 @@ export default function Navbar() {
         </a>
         <a
           href="https://twitter.com/vpukhanov"
+          title="Twitter"
           target="_blank"
           rel="noopener"
           className={[styles.navIcon, styles.navLink].join(" ")}
@@ -46,6 +49,7 @@ export default function Navbar() {
         </a>
         <a
           href="https://instagram.com/vpukhanov"
+          title="Instagram"
           target="_blank"
           rel="noopener"
           className={[styles.navIcon, styles.navLink].join(" ")}
