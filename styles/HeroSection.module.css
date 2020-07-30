@@ -37,14 +37,13 @@
     flex-direction: column;
   }
 
-  .imageContainer {
+  .imageContainer,
+  .textContainer {
     margin-left: 0;
     margin-right: 0;
   }
 
   .textContainer {
     margin-top: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 }

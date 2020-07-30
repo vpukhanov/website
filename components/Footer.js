@@ -5,7 +5,9 @@ export default function Footer() {
     <footer className={styles.container}>
       <p className="text-title">
         I'm always up for a dicussion,{" "}
-        <a href="mailto:vyacheslav@pukhanov.ru">drop me a line</a>
+        <a href="mailto:vyacheslav@pukhanov.ru">
+          drop&nbsp;me&nbsp;a&nbsp;line
+        </a>
       </p>
     </footer>
   );

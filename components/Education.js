@@ -3,7 +3,7 @@ export default function Education() {
     <section>
       <h2 className="text-subtitle">Education</h2>
       <p className="text-subsubtitle">
-        Masters Degree in Fundamental Computer Science & Information
+        Master's Degree in Fundamental Computer Science & Information
         Technologies
         <br />
         <span className="text-sublime">
@@ -11,7 +11,7 @@ export default function Education() {
         </span>
       </p>
       <p className="text-subsubtitle">
-        Bachelors Degree in Fundamental Computer Science & Information
+        Bachelor's Degree in Fundamental Computer Science & Information
         Technologies
         <br />
         <span className="text-sublime">

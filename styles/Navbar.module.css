@@ -28,6 +28,12 @@
   color: inherit;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .navLink {
+    transition: none;
+  }
+}
+
 .navLink:hover,
 .navLink:focus {
   color: var(--link-color);
