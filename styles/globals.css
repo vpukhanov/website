@@ -69,6 +69,7 @@ main > * {
 .text-title {
   font-size: 24px;
   font-weight: 700;
+  line-height: 32px;
 }
 
 .text-subtitle {
