@@ -3,7 +3,14 @@ import styles from "../styles/HeroSection.module.css";
 export default function HeroSection() {
   return (
     <section className={styles.container}>
-      <div className={styles.imageContainer} />
+      <div className={styles.imageContainer}>
+        <img
+          src="/avatar.jpg"
+          width="196"
+          height="196"
+          alt="Vyacheslav Pukhanov"
+        />
+      </div>
       <div className={styles.textContainer}>
         <p className="text-title">
           Hey there, I'm&nbsp;Vyacheslav&nbsp;Pukhanov&nbsp;👋🏻

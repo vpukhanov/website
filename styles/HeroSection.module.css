@@ -12,6 +12,7 @@
 .imageContainer {
   height: 196px;
   width: 196px;
+  overflow: hidden;
 
   border-radius: 50%;
   background-color: gray;
