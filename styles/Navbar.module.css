@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 96px;
+
+  line-height: 28px;
+}
+
+.rightSide {
+  display: flex;
+}
+
+.navIcon {
+  width: 24px;
+}
+
+.navIcon:not(:first-child) {
+  margin-left: 24px;
+}
+
+.navLink {
+  transition: color 0.15s;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: var(--link-color);
+}
+
+.linkDescription {
+  visibility: hidden;
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin-top: 12px;
+    flex-direction: column;
+  }
+}
