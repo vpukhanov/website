@@ -24,6 +24,12 @@ export default function UnidueAppPrivacyPolicy() {
             Apple's iCloud itself, with no direct developer access
           </li>
         </ul>
+        <h2>🐱 RevenueCat</h2>
+        <p className="text-body">
+          Unidue uses RevenueCat to verify App Store receipts, process in-app
+          purchases, and restore previous purchases. RevenueCat does not have
+          access to any personal user information.
+        </p>
       </section>
     </div>
   );
