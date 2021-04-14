@@ -13,12 +13,6 @@ export default function BinboxAppPrivacyPolicy() {
       </Head>
       <section className="privacy-en">
         <h1 className="text-title">Privacy Policy</h1>
-        <p className="text-body location">
-          The "Stops: Yaroslavl's Transport" processes your location locally and
-          on-device. We may collect anonymous information about your actions in
-          the app, simply to know which features of the app are used the most,
-          so we can focus on them during development.
-        </p>
         <h2 className="text-subtitle">What data do you collect?</h2>
         <p className="text-body">
           When you create a new inbox inside the app, it is created on the
@@ -57,6 +51,13 @@ export default function BinboxAppPrivacyPolicy() {
           server during regular maintenance. This inbox could not be accessed by
           any users while it's pending deletion.
         </p>
+        <h2 className="text-subtitle">How do you track my subscriptions?</h2>
+        <p>
+          Subscriptions are tracked using a unique identifier not linked to your
+          identity. The events of subscribing, renewal or cancelling the
+          subscription are processed by RevenueCat for the purposes of analytics
+          only.
+        </p>
         <h2 className="text-subtitle">
           I have more questions, how do I reach out to you?
         </h2>
@@ -67,7 +68,7 @@ export default function BinboxAppPrivacyPolicy() {
           <a href="https://twitter.com/vpukhanov">@vpukhanov</a>.
         </p>
         <p className="text-body text-sublime">
-          <em>Last update: November 28, 2020</em>
+          <em>Last update: April 14, 2021</em>
         </p>
       </section>
     </div>
