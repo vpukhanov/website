@@ -27,6 +27,84 @@ export default function BinboxAppTermsOfService() {
           LEAST 18 YEARS OF AGE TO ACCESS THE APP. IF YOU DISAGREE WITH ANY OF
           THE PROVISIONS OF THESE TERMS, DO NOT USE THE APP.
         </p>
+        <h2 className="text-subtitle">Apple Terms</h2>
+        <p className="text-body">
+          This agreement is concluded between You and the Developer only, and
+          not with Apple, and the Developer, not Apple, is solely responsible
+          for the Licensed Application and the content thereof. The EULA may not
+          provide for usage rules for Licensed Applications that are in conflict
+          with, the Apple Media Services Terms and Conditions as of the
+          Effective Date.
+        </p>
+        <p className="text-body">
+          The license granted to You for the Binbox Application is limited to a
+          non-transferable license to use the Licensed Application on any
+          Apple-branded Products that You own or control and as permitted by the
+          Usage Rules set forth in the Apple Media Services Terms and
+          Conditions, except that such Licensed Application may be accessed and
+          used by other accounts associated with the purchaser via volume
+          purchasing.
+        </p>
+        <p className="text-body">
+          The developer is solely responsible for providing any maintenance and
+          support services with respect to the Binbox Application, as specified
+          in this terms, or as required under applicable law. You acknowledge
+          that Apple has no obligation whatsoever to furnish any maintenance and
+          support services with respect to the Licensed Application. (See
+          "Maintenance" section)
+        </p>
+        <p className="text-body">
+          The developer solely responsible for any product warranties, whether
+          express or implied by law, to the extent disclaimed by the
+          "Disclaimers" section of this agreement. In the event of any failure
+          of the Licensed Application to conform to any applicable warranty, You
+          may notify Apple, and Apple will refund the purchase price for the
+          Licensed Application to You; and You acknowledge that, to the maximum
+          extent permitted by applicable law, Apple will have no other warranty
+          obligation whatsoever with respect to the Licensed Application, and
+          any other claims, losses, liabilities, damages, costs or expenses
+          attributable to any failure to conform to any warranty will be
+          Developer's sole responsibility.
+        </p>
+        <p className="text-body">
+          You must acknowledge that Developer, not Apple, is responsible for
+          addressing any claims of the End-User or any third party relating to
+          the Licensed Application or the end-user’s possession and/or use of
+          that Licensed Application, including, but not limited to: (i) product
+          liability claims; (ii) any claim that the Licensed Application fails
+          to conform to any applicable legal or regulatory requirement; and
+          (iii) claims arising under consumer protection, privacy, or similar
+          legislation, including in connection with Your Licensed Application’s
+          use of the HealthKit and HomeKit frameworks. The EULA may not limit
+          Developer's liability to the End-User beyond what is permitted by
+          applicable law.
+        </p>
+        <p className="text-body">
+          You must acknowledge that, in the event of any third party claim that
+          the Licensed Application or Your possession and use of that Licensed
+          Application infringes that third party’s intellectual property rights,
+          the Developer, not Apple, will be solely responsible for the
+          investigation, defense, settlement and discharge of any such
+          intellectual property infringement claim.
+        </p>
+        <p className="text-body">
+          Developer, Vyacheslav Pukhanov, can be contacted via email at{" "}
+          <a href="mailto:vyacheslav@pukhanov.ru">vyacheslav@pukhanov.ru</a>
+        </p>
+        <p className="text-body">
+          You must represent and warrant that (i) you are not located in a
+          country that is subject to a U.S. Government embargo, or that has been
+          designated by the U.S. Government as a “terrorist supporting” country;
+          and (ii) you are not listed on any U.S. Government list of prohibited
+          or restricted parties.
+        </p>
+        <p className="text-body">
+          You acknowledge and agree that Apple, and Apple’s subsidiaries, are
+          third party beneficiaries of the EULA, and that, upon Your acceptance
+          of the terms and conditions of the EULA, Apple will have the right
+          (and will be deemed to have accepted the right) to enforce the EULA
+          against You as a third party beneficiary thereof.
+        </p>
         <h2 className="text-subtitle">Access to the App</h2>
         <p className="text-body">
           <b>Subject to these Terms.</b> Developer grants you a
@@ -103,6 +181,10 @@ export default function BinboxAppTermsOfService() {
           Some jurisdictions do not allow the limitation or exclusion of
           liability for incidental or consequential damages, so the above
           limitation or exclusion may not apply to you.
+        </p>
+        <p className="text-body text-sublime">
+          Contact: Vyacheslav Pukhanov,{" "}
+          <a href="mailto:vyacheslav@pukhanov.ru">vyacheslav@pukhanov.ru</a>
         </p>
         <p className="text-body text-sublime">
           <em>Last update: April 14, 2021</em>
