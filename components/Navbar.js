@@ -18,16 +18,6 @@ export default function Navbar() {
       </div>
       <div className={styles.rightSide}>
         <a
-          href="https://blog.pukhanov.ru"
-          title="Blog"
-          target="_blank"
-          rel="noopener"
-          className={[styles.navIcon, styles.navLink].join(" ")}
-        >
-          <FontAwesomeIcon icon={faMicroblog} />
-          <span className="visible-hidden">Blog</span>
-        </a>
-        <a
           href="https://github.com/vpukhanov"
           title="Github"
           target="_blank"
