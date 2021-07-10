@@ -1,6 +1,7 @@
 import {
   faMicroblog,
   faGithub,
+  faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -35,6 +36,16 @@ export default function Navbar() {
         >
           <FontAwesomeIcon icon={faGithub} />
           <span className="visible-hidden">Github</span>
+        </a>
+        <a
+          href="https://twitter.com/vpukhanov"
+          title="Twitter"
+          target="_blank"
+          rel="noopener"
+          className={[styles.navIcon, styles.navLink].join(" ")}
+        >
+          <FontAwesomeIcon icon={faTwitter} />
+          <span className="visible-hidden">Twitter</span>
         </a>
         <a
           href="https://instagram.com/vpukhanov"
