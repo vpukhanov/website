@@ -24,6 +24,21 @@ export default function CommonHead() {
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#070798" />
       <meta name="msapplication-TileColor" content="#070798" />
       <meta name="theme-color" content="#070798" />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-SLT2R6J3JQ"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SLT2R6J3JQ');
+          `,
+        }}
+      />
     </>
   );
 }
