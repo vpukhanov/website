@@ -1,4 +1,3 @@
-import GoogleFonts from "next-google-fonts";
 import Head from "next/head";
 
 import CommonHead from "../components/CommonHead";
@@ -12,7 +11,6 @@ import WorkExperience from "../components/WorkExperience";
 export default function Home() {
   return (
     <div className="app-container">
-      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
       <Head>
         <title>Vyacheslav Pukhanov</title>
         <meta

@@ -1,11 +1,9 @@
-import GoogleFonts from "next-google-fonts";
 import Head from "next/head";
 import CommonHead from "../../components/CommonHead";
 
 export default function BinboxAppTermsOfService() {
   return (
     <div className="app-container">
-      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
       <Head>
         <title>Binbox App Terms of Service | Vyacheslav Pukhanov</title>
         <meta name="description" content="Terms of Service for Binbox" />
