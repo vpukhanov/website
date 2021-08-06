@@ -1,13 +1,15 @@
+import Image from "next/image";
+
 import styles from "../styles/HeroSection.module.css";
 
 export default function HeroSection() {
   return (
     <section className={styles.container}>
       <div className={styles.imageContainer}>
-        <img
+        <Image
           src="/avatar.jpg"
-          width="196"
-          height="196"
+          width={196}
+          height={196}
           alt="Vyacheslav Pukhanov"
         />
       </div>
