@@ -31,6 +31,33 @@ export default function PersonalProjects() {
           <li>Postfix + Dovecot</li>
         </ul>
       </div>
+      <div>
+          <p className="text-caption">
+            <a
+              href="https://mister.pub"
+              target="_blank"
+              rel="noopener"
+            >
+              Mr. Pub
+            </a>
+            &nbsp;
+            <span className="text-sublime">web app</span>
+          </p>
+          <p className="text-body">
+            Mister Pub is a work-in-progress platform for developers to collaborate
+            on diffs and patches. It strives to streamline the collaboration process and
+            reduce friction as much as possible, putting the focus on the actual task
+            at hand itself.
+          </p>
+          <p className="text-body">Key technologies:</p>
+          <ul className="text-body">
+            <li>NextJS (React + SSR)</li>
+            <li>Google Cloud Platform (Google Kubernetes Engine, Google Cloud Storage)</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Terraform</li>
+          </ul>
+        </div>
     </section>
   );
 }

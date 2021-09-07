@@ -9,11 +9,12 @@ export default function WorkExperience() {
           <p className="text-body">Key technologies:</p>
           <ul className="text-body">
             <li>TypeScript</li>
-            <li>React</li>
+            <li>React + Server-side rendering</li>
             <li>Redux</li>
-            <li>Server-side rendering</li>
             <li>Docker</li>
+            <li>Kubernetes</li>
             <li>Git</li>
+            <li>GitLab CI (on-premise)</li>
           </ul>
         </h3>
       </div>
