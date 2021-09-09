@@ -8,6 +8,10 @@
     "static-build": "next build && next export",
     "start": "next start"
   },
+  "cacheDirectories": [
+    "node_modules",
+    ".next/cache"
+  ],
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
