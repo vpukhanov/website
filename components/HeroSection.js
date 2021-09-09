@@ -10,6 +10,7 @@ export default function HeroSection() {
           src="/avatar.jpg"
           width={196}
           height={196}
+          placeholder="blur"
           alt="Vyacheslav Pukhanov"
         />
       </div>
