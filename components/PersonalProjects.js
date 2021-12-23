@@ -4,14 +4,7 @@ export default function PersonalProjects() {
       <h2 className='text-subtitle'>Personal Projects</h2>
       <div>
         <p className='text-caption'>
-          <a
-            href='https://apps.apple.com/us/app/binbox-disposable-email/id1507375086'
-            target='_blank'
-            rel='noopener'
-          >
-            Binbox
-          </a>
-          &nbsp;
+          Binbox &nbsp;
           <span className='text-sublime'>for iOS & macOS</span>
         </p>
         <p className='text-body'>
@@ -33,10 +26,7 @@ export default function PersonalProjects() {
       </div>
       <div>
         <p className='text-caption'>
-          <a href='https://mister.pub' target='_blank' rel='noopener'>
-            Mr. Pub
-          </a>
-          &nbsp;
+          Mr. Pub &nbsp;
           <span className='text-sublime'>web app</span>
         </p>
         <p className='text-body'>

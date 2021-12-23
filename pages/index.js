@@ -19,7 +19,6 @@ export default function Home() {
         />
         <CommonHead />
       </Head>
-
       <Navbar />
       <main>
         <HeroSection />
