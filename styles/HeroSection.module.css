@@ -10,8 +10,8 @@
 }
 
 .imageContainer {
-  height: 196px;
-  width: 196px;
+  height: 128px;
+  width: 128px;
   overflow: hidden;
 
   border-radius: 50%;
@@ -46,5 +46,6 @@
 
   .textContainer {
     margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
