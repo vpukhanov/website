@@ -15,7 +15,7 @@ export default function Home() {
         <title>Vyacheslav Pukhanov</title>
         <meta
           name='description'
-          content='Vyacheslav Pukhanov is a professinal web developer and a hobbyist mobile developer based in Yaroslavl, Russia'
+          content='Vyacheslav Pukhanov is a senior frontend engineer and a hobbyist iOS developer based in Yaroslavl, Russia'
         />
         <CommonHead />
       </Head>

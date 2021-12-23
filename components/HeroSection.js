@@ -19,7 +19,7 @@ export default function HeroSection() {
           Hey there, I'm&nbsp;Vyacheslav&nbsp;Pukhanov&nbsp;👋🏻
         </p>
         <p className='text-title'>
-          I'm a senior frontend engineer and a hobbyist iOS developer
+          I'm a&nbsp;senior frontend engineer and a&nbsp;hobbyist iOS developer
         </p>
       </div>
     </section>
