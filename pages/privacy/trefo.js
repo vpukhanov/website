@@ -13,11 +13,17 @@ export default function TrefoAppPrivacyPolicy() {
         <h1 className='text-title'>Privacy Policy</h1>
         <h2 className='text-subtitle'>✅ Privacy First</h2>
         <ul className='text-body'>
-          <li>
-            All of your info stays on your device, we do not collect any data
-          </li>
+          <li>All of your personal info stays on your device</li>
           <li>The app works completely offline</li>
         </ul>
+        <h2 className='text-subtitle'>🤖 TelemetryDeck</h2>
+        <p className='text-body'>
+          Trefo uses TelemetryDeck to understand how users use the app so that
+          we can improve commonly used functionality, make it easier to use and
+          discover. TelemetryDeck does not have access to any personal user
+          information and uses anonymous identifiers not linked to your
+          identity.
+        </p>
         <h2 className='text-subtitle'>
           I have more questions, how do I reach out to you?
         </h2>
@@ -28,7 +34,7 @@ export default function TrefoAppPrivacyPolicy() {
           <a href='https://twitter.com/vpukhanov'>@vpukhanov</a>.
         </p>
         <p className='text-body text-sublime'>
-          <em>Last update: January 1, 2022</em>
+          <em>Last update: January 3, 2022</em>
         </p>
       </section>
     </div>
