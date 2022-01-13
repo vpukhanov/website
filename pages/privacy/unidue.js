@@ -36,6 +36,15 @@ export default function UnidueAppPrivacyPolicy() {
           discover. TelemetryDeck does not have access to any personal user
           information.
         </p>
+        <h2 className='text-subtitle'>✈️ AppsFlyer</h2>
+        <p className='text-body'>
+          Unidue uses AppsFlyer to understand how users use the app so that we
+          can better understand, how users find and install our app. AppsFlyer
+          does not have access to any personal user information. It uses
+          tracking identifier only when given explicit permission at the first
+          launch of the app. In case the request is rejected, it uses anonymous
+          identifier, not linked to user identity.
+        </p>
       </section>
     </div>
   )
